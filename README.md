@@ -31,4 +31,17 @@ A full-stack URL shortener web app built with:
 ---
 
 ## 📁 Folder Structure
+```
+url-shortener/
+├── client/ # Frontend (Next.js)
+│ ├── pages/
+│ │ └── index.tsx # URL input form + results
+│ └── components/ # Reusable UI components
+├── server/ # Backend (Express)
+│ ├── models/Url.js # Mongoose schema
+│ ├── routes/url.js # URL shorten + redirect
+│ └── app.js # Server entry point
+├── .env # Environment variables
+└── README.md # You're here!
 
+```
