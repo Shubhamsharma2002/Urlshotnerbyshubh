@@ -1,36 +1,34 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🔗 URL Shortener
 
-## Getting Started
+A full-stack URL shortener web app built with:
 
-First, run the development server:
+- **Frontend:** Next.js (React + TypeScript)
+- **Backend:** Node.js + Express.js + MongoDB
+- Developed by: **Shubham Sharma** (your brother 😄)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## ✨ Features
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Shorten any valid URL with a user-friendly frontend
+- Unique short code generation using `shortid`
+- Redirection to original long URL using Express routes
+- RESTful API
+- MongoDB storage
+- Simple and responsive UI
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+| Layer      | Technology                 |
+|------------|----------------------------|
+| Frontend   | Next.js, TypeScript, Axios |
+| Backend    | Node.js, Express.js        |
+| Database   | MongoDB, Mongoose          |
+| Utilities  | shortid, valid-url, dotenv |
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📁 Folder Structure
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
