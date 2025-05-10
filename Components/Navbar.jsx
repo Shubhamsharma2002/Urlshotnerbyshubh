@@ -2,7 +2,7 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className='p-3 bg-fuchsia-400 flex justify-around'>
+    <div className='p-3 bg-blue-600 flex justify-around'>
         <div>
         <p>Logo</p>
 
