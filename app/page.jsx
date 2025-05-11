@@ -6,8 +6,8 @@ import About from "./About";
 export default function Home() {
   return (
            <>
-            {/* <Shotner/> */}
-            <About/>
+            <Shotner/>
+            {/* <About/> */}
            </>
   );
 }
