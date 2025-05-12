@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 function Navbar() {
@@ -8,8 +9,7 @@ function Navbar() {
 
         </div>
        <div className='flex gap-10 text-white font-semibold'> 
-        <p>About</p>
-        <p>Contact</p>
+          <Link href="/about">About</Link>
         </div>
     </div>
   )
