@@ -4,6 +4,7 @@ import React, { useState } from "react";
 const Shotner = () => {
   const [url,seturl] = useState("")
   const [shorturl , setshortUrl] = useState("")
+  const [genrated,setgenrated] = useState("")
   
   return (
     <div className="max-w-xl mx-auto p-6 mt-10 bg-white shadow-md   rounded-2xl">
