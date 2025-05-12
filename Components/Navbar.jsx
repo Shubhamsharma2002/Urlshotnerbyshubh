@@ -5,7 +5,7 @@ function Navbar() {
   return (
     <div className='p-3 bg-blue-600 flex justify-around'>
         <div>
-        <p>Logo</p>
+        <Link href="/"  className='cursor-pointer text-white font-bold italic' >urlShotner</Link>
 
         </div>
        <div className='flex gap-10 text-white font-semibold'> 
